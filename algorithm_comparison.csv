@@ -1,0 +1,5 @@
+algorithm,n_clusters,noise_points,silhouette,davies_bouldin,calinski_harabasz,ARI,NMI,homogeneity,completeness
+K-Means (k=3),3,0,0.2849,1.3892,70.94,0.8975,0.8759,0.8788,0.873
+Hierarchical Ward (k=3),3,0,0.2774,1.4186,67.6475,0.7899,0.7865,0.7904,0.7825
+"DBSCAN (eps=2.2, ms=4)",2,48,0.3401,1.1596,70.7611,0.3785,0.4656,0.4553,0.4763
+GMM (k=3),3,0,0.2844,1.3938,70.6878,0.8804,0.8609,0.8639,0.858

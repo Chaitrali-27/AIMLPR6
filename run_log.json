@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "n_samples": 178,
+    "n_features": 13,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "true_class_counts": {
+      "0": 59,
+      "1": 71,
+      "2": 48
+    }
+  },
+  "scaled_mean_abs_max": 7.841417902015432e-15,
+  "scaled_std_range": [
+    0.9999999999999998,
+    1.0000000000000004
+  ],
+  "pca_var_first2": 0.5540633835693526,
+  "pca_var_first3": 0.6652996889318524,
+  "k_by_silhouette": 3,
+  "k_by_dbi": 3,
+  "k_chosen": 3,
+  "dbscan_params": {
+    "eps": 2.2,
+    "min_samples": 4
+  },
+  "gmm_k_by_bic": 2,
+  "top_features": [
+    "flavanoids",
+    "od280/od315_of_diluted_wines",
+    "proline",
+    "alcohol"
+  ],
+  "stability": {
+    "seed_ARI_mean": 0.9703519958483146,
+    "seed_ARI_min": 0.8818608425078969,
+    "subsample80_ARI_mean": 0.9714318234284101,
+    "subsample80_ARI_min": 0.8928730015565804
+  }
+}
